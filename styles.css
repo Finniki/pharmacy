@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: whitesmoke;
+  font-family: Poppins;
+  font-size: smaller;
+}
+h1,
+h2,
+h3 {
+  font-family: 'Abril Fatface';
+}
+header,
+.nav-bar,
+ul {
+  /* border: 2px solid blue; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  min-width: 50%;
+}
+header > div > img {
+  border-radius: 10px;
+  background: black;
+  margin-top: -10px;
+}
+header {
+  justify-content: space-between;
+  padding: 0px 1%;
+  margin-top: 2%;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.8em;
+  font-weight: 900;
+}
+li {
+  list-style-type: none;
+}
+.phone {
+  background-color: #dc610f;
+  border-radius: 10px;
+  padding: 2px 10px;
+  margin-top: -10px;
+  color: black;
+  font-weight: 900;
+}
+.hero-image {
+  background-image: linear-gradient(
+      rgba(54, 175, 223, 0.733),
+      rgba(135, 207, 235, 0.534)
+    ),
+    url('./images/hero-image.png');
+  height: 90vh;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+.hero-text {
+  padding: 20% 0 0 20%;
+}
+h1 {
+  font-size: 3em;
+  padding-bottom: 2%;
+  color: white;
+}
+input {
+  width: 300px;
+  height: 30px;
+  background-color: inherit;
+  border-style: none;
+  border-radius: 50px;
+  background: #473d8b1e;
+  box-shadow: 10px 10px 10px rgba(70, 135, 161, 0.404),
+    -10px -10px 10px rgba(151, 196, 214, 0.603);
+}
+input::placeholder {
+  font-size: larger;
+  font-weight: bolder;
+  color: white;
+  padding: 0px 10px;
+}
+
+button {
+  width: 150px;
+  height: 30px;
+  border-radius: 50px;
+  margin-left: 2%;
+  color: black;
+  font-weight: bolder;
+  background-color: #dc610f;
+  border-style: none;
+  box-shadow: 10px 10px 10px #80482356, -10px -10px 10px #c79b7d56;
+}
+input:hover,
+button:hover,
+img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+h2 {
+  margin: 5% 0;
+  padding-top: 10px;
+  text-align: center;
+}
+.how-it-works {
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.image {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+img {
+  border-radius: 50%;
+  margin: 5% 0 15%;
+}
+h3 {
+  color: #dc610f;
+  font-size: 15px;
+  text-transform: uppercase;
+  /* margin-bottom: 5%; */
+}
+.prescription,
+.consultation,
+.products {
+  max-width: 30%;
+  text-align: center;
+  color: whitesmoke;
+  margin-bottom: 1%;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #dddddd, #ffffff);
+  box-shadow: 27px 27px 53px #d0d0d0, -27px -27px 53px #ffffff;
+}
+.prescription:hover,
+.consultation:hover,
+.products:hover {
+  transform: scale(1.3);
+  background-color: #dc610f;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px grey;
+}
+.features {
+  /* border: 1px solid orangered; */
+  width: 70%;
+  margin-left: 15%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10%;
+}
+.features > article > div > img {
+  height: 60px;
+  width: 60px;
+}
+.features > article {
+  display: flex;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #ffffff, #dddddd);
+  box-shadow: 16px 16px 33px #d0d0d0, -16px -16px 33px #ffffff;
+}
+.ftext {
+  display: flex;
+  flex-direction: column;
+  padding: 0 5%;
+  justify-content: space-around;
+  align-content: center;
+}
+.grey {
+  background-color: rgba(128, 128, 128, 0.082);
+  height: fit-content;
+  margin-top: 8%;
+}
+.testimonials {
+  width: 50%;
+  margin: -2% 0 0 25%;
+}
+.testimonials > .reviewers > img {
+  height: 100px;
+  width: 100px;
+  margin-top: 5%;
+}
+.testimonials > h3,
+h4 {
+  text-align: center;
+  margin: 2% 0;
+}
+.reviewers {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  /* border: 1px solid greenyellow; */
+}
+footer {
+  background-color: #dc610f;
+  padding: 2% 0;
+}
+.footer {
+  width: 50%;
+  margin-left: 25%;
+  padding-bottom: 1%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  font-weight: 900;
+}
+footer > p {
+  text-align: center;
+  font-weight: 900;
+  /* margin-top: -4%; */
+}
+span {
+  font-weight: 100;
+}
+@media screen and (min-width: 320px) and (max-width: 576px) {
+  body {
+    max-width: 100vw;
+  }
+  .nav-bar {
+    display: block;
+  }
+  .phone {
+    margin-top: 10px;
+  }
+  .how-it-works {
+    width: 100%;
+    flex-direction: column;
+  }
+  .prescription,
+  .consultation,
+  .products {
+    min-width: 100%;
+    margin-bottom: 20px;
+  }
+  .features {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}
