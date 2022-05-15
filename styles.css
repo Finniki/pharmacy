@@ -240,7 +240,7 @@ span {
   #how-it-works {
     width: 90%;
     flex-direction: column;
-    margin: 5%;
+    margin: 0;
   }
   .prescription,
   .consultation,
