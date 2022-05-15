@@ -231,6 +231,10 @@ span {
   .nav-bar {
     display: block;
   }
+  .nav-links > li {
+    width: auto;
+    padding-right: 4%;
+  }
   .phone {
     margin-top: 10px;
   }
