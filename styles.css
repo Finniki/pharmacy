@@ -232,7 +232,7 @@ span {
     display: block;
   }
   .nav-links > li {
-    padding-right: 5px;
+    margin-right: 5px;
   }
   .phone {
     margin-top: 10px;
