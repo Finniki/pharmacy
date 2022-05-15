@@ -163,12 +163,13 @@ h3 {
 #features > article > div > img {
   height: 60px;
   width: 60px;
+  padding-left: 8px;
 }
 #features > article {
   display: flex;
-  border-radius: 50px;
+  border-radius: 20px;
   background: linear-gradient(145deg, #ffffff, #dddddd);
-  box-shadow: 16px 16px 33px #d0d0d0, -16px -16px 33px #ffffff;
+  box-shadow: 10px 10px 23px #d0d0d0, -16px -16px 33px #ffffff;
 }
 .ftext {
   display: flex;
