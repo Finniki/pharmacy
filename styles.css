@@ -232,8 +232,7 @@ span {
     display: block;
   }
   .nav-links > li {
-    width: auto;
-    padding-right: 2%;
+    padding-right: 5px;
   }
   .phone {
     margin-top: 10px;
