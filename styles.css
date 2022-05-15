@@ -32,6 +32,9 @@ header {
   padding: 0px 1%;
   margin-top: 2%;
 }
+.header-space {
+  height: 2%;
+}
 a {
   text-decoration: none;
   color: black;
