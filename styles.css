@@ -225,6 +225,9 @@ span {
   body {
     max-width: 100vw;
   }
+  header {
+    position: fixed;
+  }
   input {
     margin-bottom: 2%;
   }
